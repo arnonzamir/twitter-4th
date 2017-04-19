@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: twitter-4th
+  host: twitter-4th
+  disk_quota: 1024M
+  services:
+  - twitter-4th-personality_insights
